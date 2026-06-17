@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment variables (NEVER commit secrets)
+.env
+
+# Uploaded media (videos, images) - too large for git
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
